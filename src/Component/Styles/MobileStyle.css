@@ -1,0 +1,154 @@
+
+@media screen and (width<1000px) {
+    
+    .starRate span,h3{
+
+        visibility: hidden;
+    }
+    .starRate h3,span{
+        visibility: hidden;
+    }
+  
+
+   
+}
+@media screen and (width<880px) {
+    .text p{
+font-size: 12px;
+gap: 0px;
+
+    }
+    .text h3{
+        font-size: 20px
+    }
+.text .firstTxt{
+    margin: 0px
+}
+.text .secondTxt{
+    margin-top:-20px;
+    
+}
+.starRate span{
+    font-size: 20px;
+}
+
+}
+@media screen and (width<=600px) {
+    body{
+        overflow-x: hidden;
+    }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            font-size: 13px;
+            padding-top: 13px;
+            
+        }
+    
+        .navbar .menu {
+            
+     
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+    
+        .menu li {
+            position: relative;
+           right: 25px;
+        }
+    
+    
+    
+    .header{
+    height: 125px;
+    }
+    .hdTitle{
+        width: 100%;
+        height: 30px;
+        font-size: 12px;
+        line-height: 3px;
+      margin: 9px;
+    
+    }
+    .hdTitle h1{
+        position: relative;
+        left:40px;
+    }
+    .hdList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        font-size: 13px;
+    gap: 5px;
+    }
+    
+    .hdOption select{
+        padding: 3px;
+        font-size: 12px;
+    }
+    
+    .hdMenu
+    {
+        height: 20px;
+        font-size: 12px;
+    }
+    .hdNav{
+        font-size: 12px;
+        height: 15px;
+    }
+    
+    .card{
+        font-size: 12px;
+    }
+    .text .secondTxt{
+     visibility: hidden;
+        
+    }
+    .text .showmore{
+        position: relative;
+        top: 10px;
+    }
+  .content  .card{
+        height: 100px;
+        
+    margin-right: 10px;
+    }
+    #number{
+        visibility: hidden;
+    }
+    .view{
+       
+        height: 20px;
+    }
+    #best {
+        visibility: hidden;
+    
+    }
+    #num{ 
+        font-size:20px;
+    }
+    .deals{
+
+        height: fit-content;
+        font-size: 12px;
+    }
+    .deals .cards{
+
+        height:60px;
+    }
+    .img{
+        height: 80px;
+    }
+    .dlView{
+        font-size:12px ;
+        width: 90px;
+    }
+    .email{
+        flex-direction: column;
+    }
+    }
+    

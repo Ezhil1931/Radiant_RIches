@@ -1,0 +1,123 @@
+.footer {
+    width: 100vw;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+
+    width: 80%;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.email p {
+    flex: 2;
+    text-align: center;
+}
+
+.ftinput {
+
+    flex: 1;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.ftinput input {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    text-align: center;
+}
+
+.ftinput button {
+    width: 30%;
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.ftinput input,
+button {
+    border: none;
+    outline: none;
+
+}
+
+.mainfooter {
+    background: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.foot {
+    width: 80%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    row-gap: 10px;
+}
+
+.footlist1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footlist1 :nth-child(1) {
+    text-transform: uppercase;
+}
+
+.footlist2 :nth-child(1) {
+    text-transform: uppercase;
+}
+
+.footlist2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footOption {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footOption select {
+    color: white;
+    background: black;
+    margin: 10px;
+    height: 25px;
+    border: 0px;
+    outline: 0px;
+}
+
+select {
+    padding: 5px;
+}

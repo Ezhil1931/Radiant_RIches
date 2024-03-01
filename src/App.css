@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App{
+    overflow: hidden;
+    background-color:rgba(233, 227, 227, 0.863);
+}
+.App h1{
+
+    position: relative;
+    left: 20px;
+    margin: 0px;
+}

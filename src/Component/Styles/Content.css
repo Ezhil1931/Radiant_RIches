@@ -1,0 +1,187 @@
+
+
+.content {
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.content .card {
+
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.image {
+
+    width: 300px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin: 0px;
+    position: relative;
+
+}
+
+.image img {
+
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0px;
+}
+
+#best {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    background-color: orange;
+    width: fit-content;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#number {
+
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.text {
+
+    width: 700px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+
+    overflow: hidden;
+}
+
+.text p,
+h2 {
+    margin: 0px;
+
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.text .firstTxt {
+
+
+    width: 100%;
+    height: fit-content;
+
+    word-wrap: break-word;
+    margin-bottom: 10px;
+
+}
+
+
+.secondTxt {
+    width: 100%;
+    height: fit-content;
+    word-wrap: break-word;
+
+    position: relative;
+}
+
+
+.secondTxt p {
+    width: fit-content;
+
+    margin-left: 20px;
+}
+
+.showmore {
+    position: relative;
+    color: blue;
+    cursor: pointer;
+}
+
+.showmore span {
+    position: absolute;
+    top: 3px;
+
+
+}
+
+.ratings {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.startRate {
+    width: 80%;
+    background: rgba(203, 203, 231, 0.747);
+    height: 70%;
+    color: rgb(19, 71, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: default;
+}
+
+#num {
+    font-size: 40px;
+
+    margin: 0px;
+}
+
+.startRate span {
+    position: relative;
+    bottom: 10px;
+    color: yellow;
+
+    display: flex;
+    gap: 3px;
+}
+
+.view {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    min-width: 10px;
+    height: 35px;
+
+    font-size: clamp(10px, 18, 20px);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+
+    background:blue;
+}

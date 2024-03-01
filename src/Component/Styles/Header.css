@@ -1,0 +1,115 @@
+.header {
+    width: 100vw;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    overflow: hidden;
+
+
+}
+
+.hdTitle {
+    width: 100%;
+    height: 50px;
+
+        font-weight: 100;
+    word-wrap: break-word;
+
+
+
+}
+
+.hdTitle h1 {
+    position: relative;
+    left: 40px;
+}
+
+.hdBar {
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+
+}
+
+.hdOption {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.hdOption select {
+    margin-right: 20px;
+
+    padding: 5px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    color: black;
+
+}
+
+.hdList {
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.hdList span {
+
+    position: relative;
+    top: 1px;
+}
+
+.hdMenu {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.hdMenu li {
+    padding: 2px 3px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hdNav {
+
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.hdNav span {
+    position: relative;
+    top: 2px;
+}
